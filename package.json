@@ -1,6 +1,6 @@
 {
   "name": "strider",
-  "version": "1.4.4",
+  "version": "1.4.6pre",
   "dependencies": {
     "ansiparse": "0.0.5-1",
     "stylus": "~0.37.0",
@@ -27,13 +27,13 @@
     "strider-simple-runner": "abe545/strider-simple-runner",
     "strider-env": "~0.4.4",
     "strider-python": "~0.2.1",
-    "strider-custom": "~0.5.1",
+    "strider-custom": "~0.5.2",
     "strider-sauce": "~0.6.2",
     "strider-node": "abe545/strider-node",
     "strider-webhooks": "~0.1.1",
     "strider-heroku": "~0.1.0",
-    "strider-bitbucket": "~1.0.0",
-    "strider-github": "~1.1.0",
+    "strider-bitbucket": "~1.0.1",
+    "strider-github": "~1.1.1",
     "strider-git": "~0.1.0",
     "strider-mailer": "~0",
     "strider-email-notifier": "~0.4.0",
@@ -57,7 +57,8 @@
     "httpcheck": "0.0.1",
     "connect-flash": "~0.1.1",
     "superagent": "~0.15.4",
-    "cors": "~2.1.0"
+    "cors": "~2.1.0",
+    "strider-gitlab": "^1.0.1"
   },
   "devDependencies": {
     "mocha": "~1.14.0",
