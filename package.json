@@ -78,7 +78,7 @@
   },
   "scripts": {
     "test": "make test",
-    "start": "index.js",
+    "start": "node index.js",
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
