@@ -78,7 +78,7 @@
   },
   "scripts": {
     "test": "make test",
-    "start": "node bin/strider",
+    "start": "index.js",
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
@@ -87,7 +87,7 @@
   "bin": {
     "strider": "bin/strider"
   },
-  "main": "main.js",
+  "main": "index.js",
   "description": "Brilliant continuous deployment platform",
   "keywords": [
     "strider",
