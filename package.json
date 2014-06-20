@@ -7,7 +7,7 @@
     "jade": "~0.35.0",
     "mongoose": "~3.6.10",
     "consolidate": "0.8.0",
-    "bcrypt-nodejs": "~0.0.3",
+    "bcrypt": "~0.7.7",
     "connect-mongo": "~0.3.3",
     "request": "~2.36.0",
     "async": "~0.9.0",
@@ -23,20 +23,16 @@
     "everypaas": "0.0.x",
     "pw": "0.0.4",
     "strider-extension-loader": "~0.4.2",
-    "strider-runner-core": "abe545/strider-runner-core",
     "strider-simple-runner": "~0.12.0",
     "strider-env": "~0.4.4",
     "strider-python": "~0.2.1",
-    "strider-custom": "abe545/strider-custom",
-    "strider-sauce": "~0.6.2",
-    "strider-node": "abe545/strider-node",
+    "strider-custom": "~0.5.2",
+    "strider-node": "~0.3.4",
     "strider-webhooks": "~0.1.1",
     "strider-heroku": "~0.1.0",
     "strider-bitbucket": "~1.0.1",
     "strider-github": "~1.2.2",
     "strider-git": "~0.2.0",
-    "strider-codeplex": "abe545/strider-codeplex",
-    "strider-dot-net": "~0.1.0",
     "strider-mailer": "~0",
     "strider-email-notifier": "~0.4.0",
     "strider-build-badge": "~0",
@@ -78,7 +74,7 @@
   },
   "scripts": {
     "test": "make test",
-    "start": "node index.js",
+    "start": "bin/strider",
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
@@ -87,7 +83,7 @@
   "bin": {
     "strider": "bin/strider"
   },
-  "main": "index.js",
+  "main": "main.js",
   "description": "Brilliant continuous deployment platform",
   "keywords": [
     "strider",
