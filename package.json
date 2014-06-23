@@ -36,7 +36,7 @@
     "strider-github": "~1.2.2",
     "strider-git": "~0.2.0",
     "strider-codeplex": "abe545/strider-codeplex",
-    "strider-dot-net": "~0.1.0",
+    "strider-dot-net": "~0.3.0",
     "strider-mailer": "~0",
     "strider-email-notifier": "~0.4.0",
     "strider-build-badge": "~0",
